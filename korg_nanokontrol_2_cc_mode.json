@@ -8,7 +8,7 @@
         "LED_on": 127,
         "LED_off": 0,
         "controller_id": 10,
-        "script_attach_id": 10
+        "script_attach_id": 10,
         "name": "Korg NanoKontrol 2",
         "file_name": "10_controller.json",
         "has_child": -1,
