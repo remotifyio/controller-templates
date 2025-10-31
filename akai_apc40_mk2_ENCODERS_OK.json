@@ -15,27 +15,27 @@
         "color_assignments":
         [
             {
-                "color": "verde21",
+                "color": "green21",
                 "assigment": "21"
             },
             {
-                "color": "verde22",
+                "color": "green22",
                 "assigment": "21"
             },
             {
-                "color": "verde23",
+                "color": "green23",
                 "assigment": "23"
             },
             {
-                "color": "opaco1",
+                "color": "opaque1",
                 "assigment": "1"
             },
             {
-                "color": "opaco2",
+                "color": "opaque2",
                 "assigment": "2"
             },
             {
-                "color": "clarito3",
+                "color": "clear3",
                 "assigment": "3"
             },
             {
@@ -43,15 +43,15 @@
                 "assigment": "4"
             },
             {
-                "color": "rojo5",
+                "color": "red5",
                 "assigment": "5"
             },
             {
-                "color": "rojo6",
+                "color": "red6",
                 "assigment": "6"
             },
             {
-                "color": "rojo7",
+                "color": "red7",
                 "assigment": "7"
             },
             {
@@ -64,30 +64,30 @@
             },
             {
                 "assigment": "10",
-                "color": "rojo10"
+                "color": "red10"
             },
             {
-                "color": "blanco24",
+                "color": "white24",
                 "assigment": "24"
             },
             {
-                "color": "celeste29",
+                "color": "sky blue29",
                 "assigment": "29"
             },
             {
-                "color": "azulito32",
+                "color": "blue32",
                 "assigment": "32"
             },
             {
-                "color": "azul33",
+                "color": "blue33",
                 "assigment": "33"
             },
             {
-                "color": "azulmarino43",
+                "color": "navy blue43",
                 "assigment": "43"
             },
             {
-                "color": "azuloscuro47",
+                "color": "dark blue47",
                 "assigment": "47"
             },
             {
@@ -107,15 +107,15 @@
                 "assigment": "117"
             },
             {
-                "color": "verde122",
+                "color": "green122",
                 "assigment": "122"
             },
             {
-                "color": "verde123",
+                "color": "green123",
                 "assigment": "123"
             },
             {
-                "color": "rojo120",
+                "color": "red120",
                 "assigment": "120"
             },
             {
@@ -123,11 +123,11 @@
                 "assigment": "126"
             },
             {
-                "color": "claro16",
+                "color": "clear16",
                 "assigment": "16"
             },
             {
-                "color": "azul35",
+                "color": "blue35",
                 "assigment": "35"
             },
             {
@@ -139,7 +139,7 @@
                 "assigment": "70"
             },
             {
-                "color": "yellowoacuro",
+                "color": "dark yellow",
                 "assigment": "97"
             },
             {
@@ -147,7 +147,7 @@
                 "assigment": "59"
             },
             {
-                "color": "blanc113",
+                "color": "white113",
                 "assigment": "113"
             },
             {
@@ -159,7 +159,7 @@
                 "color": "fusia81"
             },
             {
-                "color": "liet blue 41",
+                "color": "light blue 41",
                 "assigment": "41"
             }
         ]
@@ -193,7 +193,10 @@
         "control_endless_encoder_radius": 5,
         "control_endless_encoder_align_to": "left",
         "errors": "",
-        "input_led_feedback": "default"
+        "input_led_feedback": "custom",
+        "LED_MIDI_type": "CC",
+        "LED_MIDI_channel": 1,
+        "LED_MIDI_value": 48
     },
     {
         "level": 0,
@@ -3406,7 +3409,11 @@
         "control_endless_encoder_left": 99,
         "control_endless_encoder_top": 33,
         "control_endless_encoder_radius": 6,
-        "control_endless_encoder_align_to": "left"
+        "control_endless_encoder_align_to": "left",
+        "input_led_feedback": "custom",
+        "LED_MIDI_type": "CC",
+        "LED_MIDI_channel": 1,
+        "LED_MIDI_value": "16"
     },
     {
         "level": 0,
